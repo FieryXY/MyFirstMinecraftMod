@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "has_plate=false": {"model": "first:block/table_block"},
+    "has_plate=true": {"model": "first:block/table_block_plate"}
+  }
+}

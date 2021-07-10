@@ -1,25 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "first",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "My First Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "FieryXY (drcraft8)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/FieryXY/MyFirstMinecraftMod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/first/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.fieryxy.firstmod.MyFirstMinecraftMod"
+    ],
+    "client": [
+      "com.fieryxy.firstmod.MyFirstMinecraftModClient"
     ]
   },
   "mixins": [
